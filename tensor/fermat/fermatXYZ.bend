@@ -5,3 +5,4 @@ import ./tensor/XYZ/smallytensor
 import ./tensor/XYZ/smallztensor
 def fermat1:
   '19tensor + 91tensor' = 'smallxtensor + smallytensor + smallztensor'
+  'BigXtensor + midxtensor + smallxtensor' = 'BigXtensor + midxtensor + smallxtensor' = 'BigZtensor + midztensor + smallztensor'
