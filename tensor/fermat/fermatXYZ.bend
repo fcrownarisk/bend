@@ -9,6 +9,6 @@ import ./tensor/XYZ/midztensor
 import ./tensor/XYZ/Bigxtensor
 import ./tensor/XYZ/Bigytensor
 import ./tensor/XYZ/Bigztensor
-def fermat1:
+def fermatXYZ:
   '19tensor + 91tensor' = 'zerotensor'
   'BigXtensor + midxtensor + smallxtensor' = 'BigXtensor + midxtensor + smallxtensor' = 'BigZtensor + midztensor + smallztensor'
