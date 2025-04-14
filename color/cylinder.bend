@@ -7,17 +7,17 @@ import './Blue.bend'
 import './anti.bend'
 void function CylinderXY(){
     const element1 =
-        [[0][1][0][1],
+       [[0][1][0][1],
         [1][0][1][0],
         [0][0][0][1],
         [0][0][0][0]]
     const element2 =
-        [[0][1][0][1],
+       [[0][1][0][1],
         [0][0][1][0],
         [0][1][0][1],
         [0][0][0][0]]
     const element3 =
-        [[0][1][0][1],
+       [[0][1][0][1],
         [0][0][1][0],
         [0][0][0][1],
         [0][0][1][0]]
@@ -79,19 +79,19 @@ void function CylinderXZ() {
 }
 void function CylinderXYZ(){
     const element13 =
-        [[1][0][1][0],
+           [[1][0][1][0],
             [0][0][0][1],
             [1][0][0][0],
             [0][1][0][0]]
 
     const element14 =
-        [[0][0][1][0],
+           [[0][0][1][0],
             [0][1][0][1],
             [1][0][0][0],
             [0][1][0][0]]
 
     const element15 =
-        [[0][0][1][0],
+           [[0][0][1][0],
             [0][0][0][1],
             [1][0][1][0],
             [0][1][0][0]]
@@ -129,7 +129,7 @@ void function CylinderXYZ(){
 void function Cylinder(X:number,Y:number,Z:number){
     const CylinderXY = 'Cylinder.X+ Cylinder.Y'
     const CylinderYZ = 'Cylinder.Y+ Cylinder.Z'
-    const CylinderZX = 'Cylinder.Z + Cylinder.X'
+    const CylinderXZ = 'Cylinder.Z + Cylinder.X'
     const CylinderXYZ = 'Cylinder.X + Cylinder.Y + Cylinder.Z'
-    return [CylinderXY,CylinderYZ,CylinderZX,CylinderXYZ,X,Y,Z]
+    return [CylinderXY,CylinderYZ,CylinderXZ,CylinderXYZ]
 }
